@@ -1,0 +1,9 @@
+
+#it will install latest LTS
+winget install OpenJS.NodeJS.LTS
+
+#node installation verification
+node -v
+
+#package manager
+npm -v

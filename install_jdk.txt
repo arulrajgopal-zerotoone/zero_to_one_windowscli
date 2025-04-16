@@ -1,0 +1,9 @@
+#search for Java LTS versions: 
+winget search openjdk
+
+#install latest LTS
+winget install --id EclipseAdoptium.Temurin.21.JDK -e
+
+#verify
+java --version
+
